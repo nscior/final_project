@@ -1,0 +1,12 @@
+.Header {
+    background-image: linear-gradient(#B50000, #2B0000);
+    border: 10px solid maroon;
+    color: white;
+    margin: auto;
+}
+
+.Bar {
+    background: cyan;
+    margin: auto;
+    padding: 5px;
+}
