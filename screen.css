@@ -10,3 +10,17 @@
     margin: auto;
     padding: 5px;
 }
+
+.Main {
+    padding-top: 10px;
+    margin: auto;
+}
+
+.Sidebar {
+    background: grey;
+}
+
+.Box {
+    padding: 50px;
+    border-bottom: 3px solid black;
+}
