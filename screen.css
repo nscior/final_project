@@ -3,16 +3,18 @@ h2 {
 }
 
 .Header {
-    background-image: linear-gradient(#B50000, #2B0000);
-    border: 10px solid maroon;
+    background-image: linear-gradient(#B50000, #800000);
+    border: 10px solid #800000;
     color: white;
     margin: auto;
 }
 
 .Bar {
-    background: cyan;
+    background: #800000;
     margin: auto;
-    padding: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 15px;
 }
 
 .Main {
@@ -24,6 +26,9 @@ h2 {
     position: sticky;
     top: 25%;
     width: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 5px;
 }
 
 .Box {
@@ -34,6 +39,9 @@ h2 {
     margin: auto;
     font-size: x-large;
     background: gray;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
 }
 
 .Box2 {
