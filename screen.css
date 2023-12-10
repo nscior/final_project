@@ -1,3 +1,7 @@
+h2 {
+    font-size: 2em;
+}
+
 .Header {
     background-image: linear-gradient(#B50000, #2B0000);
     border: 10px solid maroon;
@@ -17,16 +21,40 @@
 }
 
 .Sidebar {
-    background: grey;
+    position: sticky;
+    top: 25%;
+    width: auto;
 }
 
 .Box {
-    padding: 50px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
     border-bottom: 3px solid black;
+    margin: auto;
+    font-size: x-large;
+    background: gray;
 }
 
 .Box2 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
     background: lightgray;
-    padding: 50px;
+    font-size: 1em;
     border-bottom: 3px solid black;
+    margin: 0 auto;
+}
+
+.Front {
+    margin: auto;
+    padding: 10px;
+    height: auto;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    box-shadow: 0.2px 0.2px 5px darkslategray;
 }
